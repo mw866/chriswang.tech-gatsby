@@ -7,15 +7,15 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `Chris Wang's Blog`,
+    description: `Cloud | Security | SaaS`,
     copyrights: '',
-    author: `@panr`,
+    author: `@chriswang_tech`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'Chris Wang\'s Blog',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
@@ -28,11 +28,7 @@ module.exports = {
       {
         title: 'Showcase',
         path: '/showcase',
-      },
-      {
-        title: 'Example',
-        path: '/example',
-      },
+      }
     ],
   },
   plugins: [
