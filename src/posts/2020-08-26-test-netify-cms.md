@@ -7,6 +7,6 @@ tags:
 excerpt: Test Netify CMS
 path: /test
 ---
-Test Netify CMS
+![](../images/heart.red.png)
 
-![](/static/heart.red.png)
+Test Netify CMS
