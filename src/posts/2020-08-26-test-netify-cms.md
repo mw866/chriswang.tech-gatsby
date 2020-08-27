@@ -5,6 +5,8 @@ description: Test Netify CMS
 tags:
   - test
 excerpt: Test Netify CMS
-path: "/test"
+path: /test
 ---
 Test Netify CMS
+
+![](/static/heart.red.png)
