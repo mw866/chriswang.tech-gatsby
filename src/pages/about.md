@@ -6,7 +6,7 @@ path: /about
 ---
 I currently work for Cloudflare as a Solutions Engineer in Singapore.
 
-![profile](/static/profile.jpg "I look like this, somewhat.")
+![profile](/src/images/profile.jpg "I look like this, somewhat.")
 
 Contact me at 
 
