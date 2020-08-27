@@ -110,8 +110,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Chris Wang's Blog`,
-        short_name: `chriswang.tech,
+        name: `Chris Wang\'s Blog`,
+        short_name: `chriswang.tech`,
         start_url: `/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
