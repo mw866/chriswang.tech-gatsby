@@ -3,7 +3,7 @@ title:  "Building a self-managed alternative to GitHub Pages"
 date:   2017-04-26 09:00:00
 tags: [Web, Jekyll, AWS, Travis-CI, Cloudflare, NGINX, LetsEncrypt]
 excerpt: I have been using GitHub pages for my personal website for a while. The GitHub Pages provides a free Jekyll-based static web hosting solution, and hence its popularity. However, I recently decided to build a self-managed version of this setup for the following reasons:...
-
+path: /self-managed-gh
 ---
 
 

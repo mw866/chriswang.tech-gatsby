@@ -2,8 +2,8 @@
 title:  "Release Notes: My Graduation from Cornell Tech CS v3"
 date:   2017-06-15 00:00:01
 tags: [cornell-tech, cornell, master, mba, cs, nyc]
-excerpt: I am extremely excited to announce my release (read "graduation") last month as part of the version 3 of Master of Computer Science from Cornell Tech in the New York City. 
-
+excerpt: I am extremely excited to announce my release (read "graduation") last month as part of the version 3 of Master of Computer Science from Cornell Tech in the New York City...
+path: /cornell-tech
 ---
 
 I am extremely excited to announce my release (read "graduation") last month as part of the version 3 of Master of Computer Science from Cornell Tech in the New York City. 

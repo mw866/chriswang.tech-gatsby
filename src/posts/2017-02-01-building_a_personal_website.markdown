@@ -3,6 +3,7 @@ title:  "Building a personal website"
 date:   2017-02-01 11:12:00
 tags: [web]
 excerpt: Some thoughts from this experience....
+path: /personal-website
 ---
 
 Like many people, I started building this website to establish a web presence.

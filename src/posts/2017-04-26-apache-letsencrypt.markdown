@@ -2,8 +2,8 @@
 title:  "Building a simple HTTPS webpage using Let's Encrypt on Apache HTTPD "
 date:   2017-04-26 19:32:00
 tags: [web]
-excerpt: I have been hearing about [Let's Encrypt](https://letsencrypt.org/) for a while, and luckily enough I have the opportunity to get my hands on it (virtually, of course).
-
+excerpt: I have been hearing about [Let's Encrypt](https://letsencrypt.org/) for a while, and luckily enough I have the opportunity to get my hands on it (virtually, of course)...
+path: /letsencrypt-apache
 ---
 
 
