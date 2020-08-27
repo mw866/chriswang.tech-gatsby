@@ -6,10 +6,10 @@ path: /about
 ---
 I currently work for Cloudflare as a Solutions Engineer in Singapore.
 
-![profile](../images/profile.jpg "I look like this, somewhat.")
-
 Contact me at 
 
-@chriswang_tech
+* Twitter: [@chriswang_tech](https://twitter.com/chriswang_tech)
+* GitHub: [mw866](https://github.com/mw866)
+* GitLab: [mw866](https://gitlab.com/mw866)
 
-contact at chriswang.tech
+![profile](../images/profile.jpg "I look like this, somewhat.")

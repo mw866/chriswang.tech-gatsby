@@ -93,6 +93,8 @@ module.exports = {
               maxWidth: 800,
               quality: 100,
             },
+            showCaptions: true,
+            markdownCaptions: true
           },
           {
             resolve: `gatsby-remark-prismjs`,
