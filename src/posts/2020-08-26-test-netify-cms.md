@@ -1,12 +1,12 @@
 ---
-title: Test Netify CMS
-date: 2020-08-26T14:01:22.804Z
+title: "Welcome to My New Blog built on Jamstack "
+date: 2020-08-27T09:40:21.550Z
 description: Test Netify CMS
 tags:
-  - test
-excerpt: Test Netify CMS
-path: /test
+  - jamstack
+excerpt: About my new personal blog built on Jamstack....
+path: /welcome
 ---
-![](../images/heart.red.png)
+You are reading my new personal blog built on [Jamstack](https://jamstack.org/).
+More to come!
 
-Test Netify CMS
