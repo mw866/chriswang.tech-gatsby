@@ -17,7 +17,7 @@ module.exports = {
     },
     logoText: 'Chris Wang\'s Blog',
     defaultTheme: 'dark',
-    postsPerPage: 5,
+    postsPerPage: 10,
     showMenuItems: 2,
     menuMoreText: 'Show more',
     mainMenu: [
