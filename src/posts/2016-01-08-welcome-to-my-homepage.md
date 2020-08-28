@@ -1,9 +1,10 @@
 ---
-title:  "Welcome to My Home Page!"
-date:   2017-01-23 15:04:23
-tags: [general]
+title: Welcome to My Home Page!
+date: 2017-01-23 15:04:23
+path: /welcome-v1
+tags:
+  - general
 excerpt: Welcome to the first version of my personal blog....
-path: /welcome
 ---
 Hi,
 Welcome to my brand-new homepage! I will start posting my ideas and projects in the upcoming posts. Stay tuned!
