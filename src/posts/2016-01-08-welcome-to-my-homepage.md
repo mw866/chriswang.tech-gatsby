@@ -1,9 +1,10 @@
 ---
-title: Welcome to My Home Page!
+title: Welcome to my blog!
 date: 2017-01-23 15:04:23
 path: /welcome-v1
 tags:
-  - general
+  - blog
+  - v1
 excerpt: Welcome to the first version of my personal blog....
 ---
 Hi,
