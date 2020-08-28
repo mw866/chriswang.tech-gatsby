@@ -70,6 +70,7 @@ https://docs.netlify.com/visitor-access/oauth-provider-tokens/#setup-and-setting
 
 The name of the [public_folder](https://www.netlifycms.org/docs/configuration-options/#public-folder) option in the Netlify CMS config `src/admin/config.yml` is  misleading. "Public" does not mean the pah in the `/public` directory
 
+Solution:
 Change `src/admin/config.yml` from
 
 ```
@@ -81,7 +82,11 @@ to
 ```
 public_folder: ../images
 ```
+#### Issue: Some posts missing in the collection
 
-### GitHub i.e. this repository. 
+Solution:
+Change the extension from `.markdown` to `.md`.
+
+### GitHub i.e. this repository.
 
 Source of truth that contains both code and content.
