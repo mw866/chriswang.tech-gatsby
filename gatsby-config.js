@@ -106,6 +106,8 @@ module.exports = {
               noInlineHighlight: false,
             },
           },         
+          'gatsby-remark-check-links'
+
         ],
       },
     },

@@ -1,7 +1,7 @@
 ---
 title:  "Add Cloudflare Workers Site to GitLab Pages"
 date:   2019-10-02 09:00:00
-tags: [Gitlab, Web, Jekyll, Cloudflare]
+tags: [gitlab, web, jekyll, cloudflare, cloudflare-workers]
 excerpt: It's surprisingly easy to publish my existing GitLab page to Workers site...
 path: /workers-site
 ---

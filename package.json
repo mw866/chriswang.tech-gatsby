@@ -6,7 +6,6 @@
   "keywords": [
     "gatsby",
     "minimal",
-    "starter",
     "blog",
     "theme",
     "dark",
@@ -30,6 +29,7 @@
     "gatsby-plugin-postcss": "^2.3.11",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.28",
+    "gatsby-remark-check-links": "^2.1.0",
     "gatsby-remark-images": "^3.3.26",
     "gatsby-remark-prismjs": "^3.5.11",
     "gatsby-source-filesystem": "^2.3.25",

@@ -1,7 +1,7 @@
 ---
 title:  "To Gitlab Pages from AWS CloudFormation and Travis CI"
 date:   2018-09-03 09:00:00
-tags: [Gitlab, Web, Jekyll, AWS, Travis-CI, Cloudflare]
+tags: [gitlab, web, jekyll, aws, travis-ci, cloudflare]
 excerpt: Last year, I had some fun building a Github Page alternative with AWS CloudFormation and Travis CI. In retrospect, there was some clear indication of over-engineering...
 path: /gitlab-pages
 
