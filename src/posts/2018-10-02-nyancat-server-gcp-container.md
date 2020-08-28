@@ -1,5 +1,5 @@
 ---
-title: Deploy Nyancat Server to Google Cloud using containers in 5 mins
+title: "Deploy Nyancat Server to Google Cloud using containers in 5 mins"
 date: 2018-10-02 23:00:00
 tags: [docker, container, telnet, google-cloud]
 excerpt: I was looking for a TCP-based application for testing  Cloudflare Spectrum...
