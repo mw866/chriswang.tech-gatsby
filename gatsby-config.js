@@ -7,6 +7,7 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://chriswang.tech`,
     title: `Chris Wang's Blog`,
     description: `Cloud | Security | SaaS`,
     copyrights: '',
@@ -135,6 +136,12 @@ module.exports = {
         trackingId: "UA-90905175-4",
         exclude: ["/admin/*"],
       }
+    },
+   {
+    resolve: `gatsby-plugin-sitemap`    ,
+    options: {
+      exclude: ["/admin/*"],
     }
+  },
   ]
 }
