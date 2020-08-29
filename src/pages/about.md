@@ -4,9 +4,11 @@ date: 2020-08-27T03:52:51.149Z
 author: Chris Wang
 path: /about
 ---
-I currently work for Cloudflare as a Solutions Engineer in Singapore.
+Currently a  Solutions Engineer at Cloudflare in Singapore.
 
-Contact me at 
+A learner for life.
+
+You can reach me at 
 
 * Twitter: [@chriswang_tech](https://twitter.com/chriswang_tech)
 * GitHub: [mw866](https://github.com/mw866)
