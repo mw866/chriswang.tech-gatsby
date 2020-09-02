@@ -8,8 +8,8 @@ const postCSSMixins = require('postcss-mixins')
 module.exports = {
   siteMetadata: {
     siteUrl: `https://chriswang.tech`,
-    title: `Chris Wang's Blog`,
-    description: `Cloud | Security | SaaS`,
+    title: `chriswang.tech`,
+    description: `A blog (mostly) about cloud, security, and SaaS`,
     copyrights: '',
     author: `@chriswang_tech`,
     logo: {
@@ -108,7 +108,6 @@ module.exports = {
             },
           },         
           'gatsby-remark-check-links'
-
         ],
       },
     },
