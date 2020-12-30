@@ -40,8 +40,8 @@
     "netlify-cms-app": "^2.12.19",
     "prismjs": "^1.21.0",
     "prop-types": "^15.6.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
