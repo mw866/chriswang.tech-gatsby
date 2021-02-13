@@ -1,4 +1,4 @@
-const postCssPresetEnv = require(`postcss-preset-env`)
+const postCssPresetEnv = require('postcss-preset-env')
 const postCSSNested = require('postcss-nested')
 const postCSSUrl = require('postcss-url')
 const postCSSImports = require('postcss-import')
@@ -7,14 +7,14 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://chriswang.tech`,
-    title: `chriswang.tech`,
-    description: `A blog (mostly) about cloud, security, and SaaS`,
+    siteUrl: 'https://chriswang.tech',
+    title: 'chriswang.tech',
+    description: 'A blog (mostly) about cloud, security, and SaaS',
     copyrights: '',
-    author: `@chriswang_tech`,
+    author: '@chriswang_tech',
     logo: {
       src: '',
-      alt: '',
+      alt: ''
     },
     logoText: 'Chris Wang\'s Blog',
     defaultTheme: 'dark',
@@ -24,40 +24,40 @@ module.exports = {
     mainMenu: [
       {
         title: 'About',
-        path: '/about',
+        path: '/about'
       },
       {
         title: 'Showcase',
-        path: '/showcase',
+        path: '/showcase'
       }
-    ],
+    ]
   },
   plugins: [
-    `babel-preset-gatsby`,
-    `gatsby-plugin-react-helmet`,
+    'babel-preset-gatsby',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        name: 'images',
+        path: `${__dirname}/src/images`
+      }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts`,
-      },
+        name: 'posts',
+        path: `${__dirname}/src/posts`
+      }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages`,
-      },
+        name: 'pages',
+        path: `${__dirname}/src/pages`
+      }
     },
     {
-      resolve: `gatsby-plugin-postcss`,
+      resolve: 'gatsby-plugin-postcss',
       options: {
         postCssPlugins: [
           postCSSUrl(),
@@ -67,80 +67,80 @@ module.exports = {
           postCssPresetEnv({
             importFrom: 'src/styles/variables.css',
             stage: 1,
-            preserve: false,
+            preserve: false
           }),
           cssnano({
-            preset: 'default',
-          }),
-        ],
-      },
+            preset: 'default'
+          })
+        ]
+      }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
               related: false,
-              noIframeBorder: true,
-            },
+              noIframeBorder: true
+            }
           },
           {
-            resolve: `gatsby-remark-images`,
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
               quality: 100,
-            },
-            showCaptions: true,
-            markdownCaptions: true
+              showCaptions: true,
+              markdownCaptions: true
+            }
           },
           {
-            resolve: `gatsby-remark-prismjs`,
+            resolve: 'gatsby-remark-prismjs',
             options: {
               classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
-              noInlineHighlight: false,
-            },
-          },         
+              noInlineHighlight: false
+            }
+          },
           'gatsby-remark-check-links'
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Chris Wang\'s Blog`,
-        short_name: `chriswang.tech`,
-        start_url: `/`,
-        background_color: `#292a2d`,
-        theme_color: `#292a2d`,
-        display: `minimal-ui`,
-        icon: `src/images/profile.jpg`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        ]
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        trackingId: "UA-90905175-4",
-        exclude: ["/admin/*"],
+        name: 'Chris Wang\'s Blog',
+        short_name: 'chriswang.tech',
+        start_url: '/',
+        background_color: '#292a2d',
+        theme_color: '#292a2d',
+        display: 'minimal-ui',
+        icon: 'src/images/profile.jpg'
       }
     },
-   {
-    resolve: `gatsby-plugin-sitemap`    ,
-    options: {
-      exclude: ["/admin/*"],
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-90905175-4',
+        exclude: ['/admin/*']
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        exclude: ['/admin/*']
+      }
     }
-  },
   ]
 }
