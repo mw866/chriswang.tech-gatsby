@@ -49,7 +49,7 @@
     "babel-preset-gatsby": "^0.12.1",
     "cssnano": "^4.1.8",
     "gatsby-remark-embed-video": "^3.0.12",
-    "postcss-import": "^12.0.1",
+    "postcss-import": "^14.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-mixins": "^6.2.3",
     "postcss-nested": "^4.2.3",
