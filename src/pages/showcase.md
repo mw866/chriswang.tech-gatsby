@@ -14,8 +14,8 @@ path: /showcase
 
 ## Other stuff
 
+* [mw866/chat-server](https://github.com/mw866/chat-server) and [mw866/chat-client](https://github.com/mw866/chat-client)
+
 * [mw866/cloudflare-gke](https://gitlab.com/mw866/cloudflare-gke) 
 
 * [mw866/PKFernet](https://github.com/mw866/PKFernet)
-
-
