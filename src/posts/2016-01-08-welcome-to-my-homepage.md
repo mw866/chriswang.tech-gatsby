@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog!
+title: Welcome to My Blog!
 date: 2017-01-23 15:04:23
 path: /welcome-v1
 tags:
