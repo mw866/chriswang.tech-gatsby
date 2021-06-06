@@ -1,5 +1,5 @@
 ---
-title: Building a personal website
+title: Building a Personal Website
 date: 2017-02-01 11:12:00
 path: /personal-website
 tags:
