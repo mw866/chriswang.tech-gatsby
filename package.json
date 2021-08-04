@@ -44,8 +44,8 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
-    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.14.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
     "babel-preset-gatsby": "^0.12.1",
     "cssnano": "^5.0.0",
     "gatsby-remark-embed-video": "^3.0.12",
