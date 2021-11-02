@@ -1,12 +1,12 @@
 ---
 title: About me
-date: 2020-08-27T03:52:51.149Z
+date: 2021-11-02T13:54:30.027Z
 author: Chris Wang
 path: /about
 ---
 I am
 
-* A Solutions Engineer at [Cloudflare](https://www.cloudflare.com/) in Singapore;
+* An ex-Solutions Engineer at [Cloudflare](https://www.cloudflare.com/) in Singapore;
 * MEng in Computer Science at [Cornell Tech](https://www.tech.cornell.edu/); and
 * A learner for life;
 
